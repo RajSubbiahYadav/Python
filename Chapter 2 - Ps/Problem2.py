@@ -1,0 +1,5 @@
+a = int(input("Enter Number a : "))
+b = int(input("Enter Number b : "))
+c= int(a / b)
+print("Remainder when a is divided by b is", a % b)
+print("Quotient when a is divided by b is", c)

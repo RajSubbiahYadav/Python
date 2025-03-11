@@ -1,0 +1,34 @@
+name= "om nama shivaya"
+
+# Returns the length of the string.
+print(len(name))
+
+# Checks if the string ends with the specified suffix.
+print(name.endswith("SHIVAYA"))
+
+# Checks if the string starts with the specified prefix.
+print(name.startswith("OM"))
+
+# Converts all characters of the string to uppercase.
+print(name.upper())
+
+# Converts all characters of the string to lowercase.
+print(name.lower())
+
+# Removes leading and trailing whitespaces (or specified characters).
+print(name.strip())
+
+# Replaces all occurrences of the substring old with the substring new.
+print(name.replace("SHIVAYA","NARAYANA"))
+
+# Splits the string into a list of substrings based on the separator.
+print(name.split())
+
+#Capitalizes the first letter of each word in the string.
+print(name.title())
+
+#Capitalizes the first letter of the string and makes all other letters lowercase.
+print(name.capitalize())
+
+#Returns the index of the first occurrence of the substring. Returns -1 if not found.
+print(name.find("a")) 
